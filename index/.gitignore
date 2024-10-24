@@ -1,0 +1,57 @@
+# Flutter/Dart specific files and directories
+.dart_tool/
+.packages
+.buildlog/
+.flutter-plugins
+.flutter-plugins-dependencies
+.meteor/
+
+# Android
+android/.gradle/
+android/app/build/
+android/app/app.iml
+android/local.properties
+android/.idea/
+android/gradle/wrapper/gradle-wrapper.properties
+android/app/.externalNativeBuild/
+android/app/src/debug/
+
+# iOS
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/.generated/
+ios/.idea/
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.xcframework/
+ios/.dart_tool/
+ios/Runner.xcworkspace/
+
+# Web (if using Flutter for web)
+build/
+web/.dart_tool/
+
+# Windows
+windows/.dart_tool/
+windows/build/
+
+# macOS
+macos/.dart_tool/
+macos/Flutter/ephemeral/
+
+# Linux
+linux/.dart_tool/
+linux/build/
+
+# IDE / Editor-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+.DS_Store
+
+# Environment and config files
+*.env

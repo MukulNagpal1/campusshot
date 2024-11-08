@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:index/front.dart';
 import 'package:index/homePage.dart';
+import 'package:index/message.dart';
+import 'package:index/profileEdit.dart';
 import 'package:index/userLogin2.dart';
+import 'package:hugeicons/hugeicons.dart';
+import 'package:index/notification.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,6 +22,6 @@ class MyApp extends StatelessWidget {
           brightness: Brightness.light,
           primarySwatch: Colors.purple,
         ),
-        home: Homepage());
+        home: NotificationBar());
   }
 }
